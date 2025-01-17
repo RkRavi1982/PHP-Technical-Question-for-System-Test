@@ -61,11 +61,11 @@
             echo '<h1>PHP Code for CREATE MySQL Table</h1>'; 
             // Note: Enable below code block for first time for create table
 
-            // $sql_create = "CREATE TABLE user_details (
-            //             id INT(5) unsigned AUTO_INCREMENT PRIMARY KEY,
-            //             uname varchar(50) NULL,
-            //             email varchar(50) NULL)";
-            // $con_pdo->exec($sql_create);
+            $sql_create = "CREATE TABLE user_details (
+                        id INT(5) unsigned AUTO_INCREMENT PRIMARY KEY,
+                        uname varchar(50) NULL,
+                        email varchar(50) NULL)";
+            $con_pdo->exec($sql_create);
 
             echo 'Table created Successfully!!';
 
